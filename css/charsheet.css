@@ -1,0 +1,67 @@
+:root{
+  --sidebar-width: 300px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cs-card {
+  padding: 14px;
+}
+
+.cs-sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: var(--sidebar-width); /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 15px;
+}
+
+.cs-content {
+  margin-left: 330px;
+  padding: 20px 10px 0px 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+  .flex-container > div {
+      margin: 7px;
+      flex: 0 0 auto;
+      text-align: center;
+      border: 1px solid black;
+  }
+
+.valores {
+  width: 75px;
+  margin: auto;
+  padding: 3px
+}
+  .valores > input{
+      width: 25px;
+      border-style: none none solid none;
+      border-width: 1px;
+      border-radius: 0px;
+      background-color: #fff;
+      text-align: center;
+  }
+.nome {
+  font-size: 10px;
+}
+.nome-rdz {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ms-Grid-col {
+  margin-bottom: 20px;
+}
